@@ -6,6 +6,21 @@ body {
     height: 100vh;
 }
 
+.titulo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, -20%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px rgb(78, 49, 69);
+}
+
+.titulo h1{
+    text-align: center;
+}
+
 .formulario{
     position: absolute;
     top: 50%;
